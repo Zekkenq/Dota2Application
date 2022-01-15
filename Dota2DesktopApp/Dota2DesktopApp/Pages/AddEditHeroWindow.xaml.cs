@@ -14,6 +14,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
+// Провели код ревью: Шарафеев Искандер и Шагиахметова Зиля
+
 namespace Dota2DesktopApp.Pages
 {
     /// <summary>
@@ -53,7 +55,7 @@ namespace Dota2DesktopApp.Pages
                 string response = MainWindow.httpClient.PutAsync($"http://localhost:44723/api/Heroes/{postHero.Id}", EdithttpContent).Result.StatusCode.ToString();
                 this.Close();
             }
-
+            // Переменные названы верно, ошибок нет
         }
     }
 }

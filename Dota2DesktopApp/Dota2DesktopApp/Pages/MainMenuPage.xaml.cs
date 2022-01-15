@@ -13,6 +13,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+// Провели код ревью: Шарафеев Искандер и Шагиахметова Зиля
+
 namespace Dota2DesktopApp.Pages
 {
     /// <summary>
@@ -64,5 +66,6 @@ namespace Dota2DesktopApp.Pages
             Refresh();
             
         }
+        // Всё отлично
     }
 }

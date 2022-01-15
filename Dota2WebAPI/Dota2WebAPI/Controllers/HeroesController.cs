@@ -52,6 +52,8 @@ namespace Dota2WebAPI.Controllers
             dbHero.AttackSpeed = hero.AttackSpeed;
             dbHero.Avatar = hero.Avatar;
             db.SaveChanges();
+
+            // Лучше было бы заполнить поля с помощью конструктора класса
             
         }
 
